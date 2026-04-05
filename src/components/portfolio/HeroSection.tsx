@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function HeroSection() {
   const [isPhotoHovered, setIsPhotoHovered] = useState(false);
+  const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
 
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
@@ -100,7 +101,7 @@ export default function HeroSection() {
                 }`}
               >
                 <Image
-                  src="/ivan-photo.png"
+                  src={`${basePath}/ivan-photo.png`}
                   alt="Ivan Jayme"
                   fill
                   className="object-cover"

@@ -33,7 +33,7 @@ const experiences = [
     period: "March 2026",
     title: "Assosicate Data Analyst",
     org: "DataCamp",
-    type: "Bootcamp",
+    type: "Certification",
     description:
       "I have earned the Data Analyst Associate certification from DataCamp, where I developed practical skills in data cleaning, analysis, and visualization using tools such as SQL, and Excel. Through hands-on projects, I learned to work with real-world datasets, apply analytical techniques, and communicate insights effectively. This certification strengthened my ability to transform raw data into meaningful information that supports data-driven decision-making.",
     tags: ["Advanced SQL", "Data Visualization", "Power BI", "Excel"],
