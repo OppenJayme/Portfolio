@@ -14,7 +14,7 @@ const contacts = [
     icon: Linkedin,
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/kyer-ivan-jayme-a41286318/",
-    display: "linkedin.com/in/alexchen",
+    display: "linkedin.com/in/IvanJayme",
   },
   {
     icon: Github,
