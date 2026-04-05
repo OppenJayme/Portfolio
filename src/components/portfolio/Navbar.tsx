@@ -65,7 +65,7 @@ export default function Navbar() {
           }}
           className="text-foreground font-semibold text-lg tracking-tight hover:text-primary transition-colors"
         >
-          Alex Chen
+          Ivan Jayme
         </a>
 
         {/* Desktop Nav */}
