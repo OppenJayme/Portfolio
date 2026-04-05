@@ -1,8 +1,12 @@
 "use client";
 
 import { ArrowDown, Download } from "lucide-react";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function HeroSection() {
+  const [isPhotoHovered, setIsPhotoHovered] = useState(false);
+
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -82,9 +86,28 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Abstract data graphic */}
+          {/* Right: Abstract graphic + profile photo */}
           <div className="hidden lg:flex items-center justify-center">
-            <AbstractDataGraphic />
+            <div className="relative w-[420px] h-[420px]">
+              <AbstractDataGraphic />
+              <div
+                onMouseEnter={() => setIsPhotoHovered(true)}
+                onMouseLeave={() => setIsPhotoHovered(false)}
+                className={`absolute inset-[92px] rounded-2xl overflow-hidden border border-border/60 shadow-2xl shadow-primary/20 bg-card transition-transform ease-out ${
+                  isPhotoHovered
+                    ? "translate-x-80 duration-1000"
+                    : "translate-x-0 duration-1000"
+                }`}
+              >
+                <Image
+                  src="/ivan-photo.png"
+                  alt="Ivan Jayme"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
