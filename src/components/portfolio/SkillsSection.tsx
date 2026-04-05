@@ -6,32 +6,27 @@ const skillCategories = [
   {
     icon: "🐍",
     category: "Programming",
-    skills: ["Python", "R", "SQL", "Pandas", "NumPy", "Scikit-learn"],
+    skills: ["Python", "Next.Js", "SQL", "Pandas", "NumPy", "C"],
   },
   {
     icon: "📊",
     category: "Visualization",
-    skills: ["Tableau", "Power BI", "Matplotlib", "Seaborn", "Plotly", "D3.js"],
+    skills: ["Tableau", "Power BI", "Matplotlib", "Excel"],
   },
   {
     icon: "🗄️",
     category: "Data & Databases",
-    skills: ["MySQL", "PostgreSQL", "BigQuery", "Excel", "Google Sheets", "dbt"],
+    skills: ["MySQL", "PostgreSQL", "Supabase", "Excel", "Google Sheets", "dbt"],
   },
   {
     icon: "☁️",
     category: "Cloud & Tools",
-    skills: ["Google Cloud", "AWS S3", "Jupyter", "Git", "VS Code", "Airflow"],
+    skills: ["AWS S3", "Jupyter", "Git", "VS Code"],
   },
   {
     icon: "📈",
-    category: "Analytics",
-    skills: ["A/B Testing", "Regression", "Clustering", "Time Series", "Cohort Analysis"],
-  },
-  {
-    icon: "🧠",
-    category: "Machine Learning",
-    skills: ["Linear Models", "Random Forest", "XGBoost", "Feature Engineering", "Cross-validation"],
+    category: "AI",
+    skills: ["Chatgpt", "Claude Code", "Cursor"],
   },
 ];
 
