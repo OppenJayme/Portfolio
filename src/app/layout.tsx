@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Alex Chen — Data Analyst Portfolio",
+  title: "Ivan Jayme — Data Analyst Portfolio",
   description: "Student data analyst passionate about transforming complex datasets into actionable insights.",
 };
 
