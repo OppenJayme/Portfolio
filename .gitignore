@@ -49,6 +49,5 @@ node_modules/
 # remove git history
 .git
 
-.github/
 **/tempobook/**
 node_modules
