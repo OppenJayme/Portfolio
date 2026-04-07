@@ -4,16 +4,17 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
+
 export const projects = [
   {
-    slug: "<project-slug>",
-    title: "<Project Title>",
+    slug: "HELLOOHELHLHHEHOEHOHHEL",
+    title: "National Data Challenge 2025 Manufacturing Downtime Analysis",
     summary:
-      "<1–2 sentence impact-focused description (include numbers if possible)>",
-    tools: ["<Tool 1>", "<Tool 2>", "<Tool 3>", "<Tool 4>"],
-    category: "<Category (e.g., Data Visualization / Data Cleaning / ML)>",
-    year: "<Year>",
-    image: "<Image URL or placeholder>",
+      "Built a Power BI dashboard for the National Data Challenge 2025 to analyze manufacturing downtime across 38 production batches, uncovering 1,388 minutes of lost time and a line efficiency of 64.02%. Identified the biggest downtime drivers, product bottlenecks, and operator-related issues to support targeted operational recommendations.",
+    tools: ["SQL", "Power Bi", "Excel"],
+    category: "Competition",
+    year: "2025",
+    image: "/ManufacturingDowntimeAnalysis_00.jpg",
   },
   {
     slug: "<project-slug>",
