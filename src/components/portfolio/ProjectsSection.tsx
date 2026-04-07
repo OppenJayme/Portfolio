@@ -4,6 +4,8 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
+const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
+
 
 export const projects = [
   {
@@ -66,7 +68,7 @@ function ProjectCard({
       {/* Image */}
       <div className="relative h-48 overflow-hidden bg-secondary">
         <img
-          src={project.image}
+          src={`${basePath}${project.image}`}
           alt={project.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
