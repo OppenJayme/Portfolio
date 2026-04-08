@@ -29,18 +29,18 @@ export const projects = [
     image: "/Data Cleaning.jpg",
   },
   {
-    slug: "<project-slug>",
-    title: "<Project Title>",
+    slug: "adventure-works-executive-sales-report",
+    title: "Adventure Works Executive Sales Report",
     summary:
-      "<1–2 sentence impact-focused description (include numbers if possible)>",
-    tools: ["<Tool 1>", "<Tool 2>", "<Tool 3>", "<Tool 4>"],
-    category: "<Category (e.g., Data Visualization / Data Cleaning / ML)>",
-    year: "<Year>",
-    image: "<Image URL or placeholder>",
+      "Built an executive Power BI dashboard using Adventure Works sales data to track $109.81M in revenue, 274.78K units sold, $12.55M in profit, and an 11.43% profit margin. The report highlights sales trends, top-performing countries, category contribution, and reseller business type performance for executive decision-making.",
+    tools: ["SQL", "Power BI ", "Excel", "DAX"],
+    category: "Business Intelligence",
+    year: "2025",
+    image: "/AdventureWorksExecutiveSalesReport_00.png",
   },
   {
-    slug: "<project-slug>",
-    title: "<Project Title>",
+    slug: "crime-victim-demographics-analysis",
+    title: "Crime Victim Demographics Analysis",
     summary:
       "<1–2 sentence impact-focused description (include numbers if possible)>",
     tools: ["<Tool 1>", "<Tool 2>", "<Tool 3>", "<Tool 4>"],
