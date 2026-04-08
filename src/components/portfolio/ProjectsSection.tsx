@@ -9,7 +9,7 @@ const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
 
 export const projects = [
   {
-    slug: "HELLOOHELHLHHEHOEHOHHEL",
+    slug: "national-data-challenge-2025-manufacturing-downtime-analysis",
     title: "National Data Challenge 2025 Manufacturing Downtime Analysis",
     summary:
       "Built a Power BI dashboard for the National Data Challenge 2025 to analyze manufacturing downtime across 38 production batches, uncovering 1,388 minutes of lost time and a line efficiency of 64.02%. Identified the biggest downtime drivers, product bottlenecks, and operator-related issues to support targeted operational recommendations.",
@@ -19,14 +19,14 @@ export const projects = [
     image: "/ManufacturingDowntimeAnalysis_00.jpg",
   },
   {
-    slug: "<project-slug>",
-    title: "<Project Title>",
+    slug: "layoffs-data-cleaning",
+    title: "Layoffs Data Cleaning in MySQL",
     summary:
-      "<1–2 sentence impact-focused description (include numbers if possible)>",
-    tools: ["<Tool 1>", "<Tool 2>", "<Tool 3>", "<Tool 4>"],
-    category: "<Category (e.g., Data Visualization / Data Cleaning / ML)>",
-    year: "<Year>",
-    image: "<Image URL or placeholder>",
+      "Cleaned and standardized a layoffs dataset in MySQL Workbench using staging tables, window functions, self-joins, and date conversion to improve data quality for analysis. The workflow removed duplicates, fixed inconsistent text values, handled nulls and blanks, and eliminated unusable records to produce a more reliable analysis-ready dataset.",
+    tools: ["MYSQL", "MYSQL Workbench", "SQL", "Winwdow Functions", "CTEs"],
+    category: "Data Cleaning>",
+    year: "2026",
+    image: "/Data Cleaning.jpg",
   },
   {
     slug: "<project-slug>",
